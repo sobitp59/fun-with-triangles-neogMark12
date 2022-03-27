@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="quizTriangle.css">
+    <title>quiz Triangle? | sobit prasad</title>
+</head>
+<body>
+    <div class="container">
+        
+            <h2 id="inputHeader">quiz Triangle</h2>
+
+            <form id="quiz-form" name="quiz-form">
+                
+                <div class="quizContainer">
+                    <h3> What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</h3>
+                    
+                    <label>
+                        <input type="radio" value="30°" name="questionOne"> 30°
+                    </label>
+
+                    <label>
+                        <input type="radio" value="60°" name="questionOne"> 60°
+                    </label>
+
+                    <label>
+                        <input type="radio" value="90°" name="questionOne"> 90°
+                    </label>  
+                </div>
+
+
+                <div class="quizContainer">
+                    <h3> If a triangle has an angle of 90 degrees, what is it called?</h3>
+                    
+                    <label>
+                        <input type="radio" value="acute angle" name="questionTwo"> acute angle
+                    </label>
+
+                    <label>
+                        <input type="radio" value="obtuse angle" name="questionTwo"> obtuse angle
+                    </label>
+
+                    <label>
+                        <input type="radio" value="right angle" name="questionTwo"> right angle
+                    </label>  
+                </div>
+            
+
+                <div class="quizContainer">
+                    <h3> What do you call a triangle whose all sides are equal? </h3>
+                    <label>
+                        <input type="radio" value="equilateral" name="questionThree"> equilateral
+                    </label>
+
+                    <label>
+                        <input type="radio" value="isosceles" name="questionThree"> isosceles
+                    </label>
+
+                    <label>
+                        <input type="radio" value="scalene" name="questionThree"> scalene
+                    </label>  
+                </div>
+
+
+                <div class="quizContainer">
+                    <h3> If the diameter of a circle is 4cm, what is its radius? (Hint: diameter = 2 X radius) </h3>
+                    
+                    <label>
+                        <input type="radio" value="8cm" name="questionFour"> 8cm
+                    </label>
+
+                    <label>
+                        <input type="radio" value="2cm" name="questionFour"> 2cm
+                    </label>
+
+                    <label>
+                        <input type="radio" value="6cm" name="questionFour"> 6cm
+                    </label>  
+                </div>
+
+
+                <div class="quizContainer">
+                    <h3> What's the name of the type of maths that studies the sides and angles of triangles?</h3>
+                    
+                    <label>
+                        <input type="radio" value="geometry" name="questionFive"> geometry
+                    </label>
+
+                    <label>
+                        <input type="radio" value="trigonometry" name="questionFive"> trigonometry
+                    </label>
+
+                    <label>
+                        <input type="radio" value="geography" name="questionFive"> geography
+                    </label>  
+                </div>
+
+            </form>
+
+            <div class="output">
+                <button id="submit-btn">submit answer</button>
+                <div id="quiz-score"></div>
+            </div>
+        
+    </div>
+
+    <script src="quizTriangle.js"></script>
+</body>
+</html>

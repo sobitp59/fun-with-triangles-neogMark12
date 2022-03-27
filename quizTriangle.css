@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 60%;
+    margin: auto;
+    padding: 1rem;
+}
+
+#inputHeader{
+    font-size: 3rem;
+    text-align: center;
+    color : rgb(33, 72, 220);
+    font-weight: 600;
+    padding: 2rem;
+    border-radius: 0.6rem;
+    background-color: rgba(33, 74, 220, 0.082);
+}
+
+.quizContainer{
+    border: 2px solid rgb(33, 72, 220);
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 0.7rem;
+    border-left:6px solid rgb(33, 72, 220);
+}
+
+h3{
+    font-weight: 500;
+    text-align: start;
+    margin-bottom: 0.8rem;
+}
+
+label{
+    margin-right: 1rem;
+    font-weight: 500;
+}
+
+input{
+    accent-color: rgb(33, 72, 220);
+}
+
+.output{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit-btn{
+    margin-top: 1rem;
+    padding: 1rem 2.5rem;
+    border-radius: 0.6rem;
+    border: none;
+    background-color: rgb(33, 72, 220);
+    color: white;
+    font-size: 1.5rem;
+}
+
+#submit-btn:hover{
+    background-color: rgb(27, 52, 143);
+    transition: 0.4s all ease-in-out;
+}
+
+#quiz-score{
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 1.5rem;
+    color: rgb(33, 72, 220);
+}
+
+@media (max-width : 478px){
+    .container{
+        width: 100%;
+    }
+
+    h3{
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem;
+    }
+
+    label{
+        display: flex;
+        margin-bottom: 0.6rem;
+    }
+}
