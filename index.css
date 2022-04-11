@@ -155,6 +155,9 @@ font-weight: 300;
     .navbar h1{
         font-size: 1.7rem;
     }
+.navbar ul{
+    justify-content: space-between;
+}
 
     .navbar ul li a{
         margin-left: 0.5rem;
